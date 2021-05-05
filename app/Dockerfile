@@ -9,4 +9,6 @@ WORKDIR /work
 
 COPY main.py main.py
 
+VOLUME ["/var/log/applog"]
+
 CMD ["python", "main.py"]
